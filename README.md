@@ -3,16 +3,16 @@ Código simples em Python que irá gerar CPFs aleatórios, já de acordo com a v
 
 Os primeiros 9 digitos são aleatórios, e serão gerados pela biblioteca random do Python.
 OBS: O 9º dígito representa o estado em que a pessoa reside, vide a lista a seguir:
-0 – RS
-1 – DF, GO, MS, MT e TO
-2 – AC, AM, AP, PA, RO e RR
-3 – CE, MA e PI
-4 – AL, PB, PE, RN
-5 – BA e SE
-6 – MG
-7 – ES e RJ
-8 – SP
-9 – PR e SC  
+- 0: RS
+- 1: DF, GO, MS, MT e TO
+- 2: AC, AM, AP, PA, RO e RR
+- 3: CE, MA e PI
+- 4: AL, PB, PE, RN
+- 5: BA e SE
+- 6: MG
+- 7: ES e RJ
+- 8: SP
+- 9: PR e SC  
 
 Os últimos dois digitos passam por um cálculo mais rigoroso. Para o décimo digito, tem-se:
 
